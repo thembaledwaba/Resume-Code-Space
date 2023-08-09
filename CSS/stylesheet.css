@@ -1,6 +1,7 @@
 header{
-font: 1em sans-serif; color: rgb(91, 88, 88); text-align: center; background-color: rgb(244, 211, 247);
+font: 1em sans-serif; color: rgb(91, 88, 88); text-align: center; background-color: rgb(244, 211, 247); border-radius: 5rem; padding: 0.00096rem;
 }
+
 html{
     background-color: rgb(250, 230, 247);
     font-family: Georgia;
@@ -20,7 +21,18 @@ h3{
 }
 section{
     background-color: rgb(244, 211, 247);
+    padding: 0.001rem 2rem 0.001rem 2rem;
+    
 }
 footer{
     background-color: rgb(244, 211, 247);
+    padding: 0.001rem 2rem 0.001rem 2rem;
+    margin-bottom: 2rem;
 }
+picture{
+    border-image: round;
+}
+img{
+    border-radius: 50%;
+}
+
