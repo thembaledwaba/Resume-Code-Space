@@ -1,5 +1,10 @@
 header{
-font: 1em sans-serif; color: rgb(91, 88, 88); text-align: center; background-color: rgb(244, 211, 247); border-radius: 5rem; padding: 0.00096rem;
+font: 1em sans-serif; 
+color: rgb(91, 88, 88); 
+text-align: center; 
+background-color: rgb(244, 211, 247); 
+border-radius: 0rem; 
+padding: 0rem;
 }
 
 html{
@@ -7,21 +12,30 @@ html{
     font-family: Georgia;
 }
 h1{
-    font-family: Georgia; font-style: italic; color: black;
+    font-family: Georgia; 
+    font-style: italic; 
+    color: black;
 }
 aside{
-    font: 1em Georgia; color: #70526C ; text-align: center;
-   
+    font: 1em Georgia;  
+    text-align: center;
+    color: aliceblue;
+    
 }
 h2{
-    text-align: center; color:  #523a50;
+    text-align: center; 
+    color:  #523a50;
 }
+
 h3{
-    font-weight: bold; font-style: italic; color: rgb(41, 34, 34); font-family: Calibri;
+    font-weight: bold; 
+    font-style: italic; 
+    color: rgb(41, 34, 34); 
+    font-family: Calibri;
 }
 section{
     background-color: rgb(244, 211, 247);
-    padding: 0.001rem 2rem 0.001rem 2rem;
+    padding: 0.001rem orem 0.001rem 0rem;
     
 }
 footer{
@@ -35,4 +49,91 @@ picture{
 img{
     border-radius: 50%;
 }
+.Banner{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(file:///Users/user/Downloads/Education/Resume1/Resume1codespace/Resume1/Resume-Code-Space/Media/AdobeStock_243227135.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+  /* Mobile */
+    @media screen and (min-width: 200px) {
+        html,body {
+            width: 100%;
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+            overflow-x: hidden;
+
+        }
+       .Nac-links{ 
+                  text-align: center;
+                  color: rgb(240, 197, 244);
+                  display: grid;
+                  grid-template-columns: 1fr;
+        }
+        header{
+                  font: 1em sans-serif; 
+                  color: rgb(49, 33, 49); 
+                  text-align: center; 
+                  background-color: rgb(244, 211, 247); 
+                  border-radius: 0rem; 
+                  padding: 0.rem;
+            }
+            h1 {
+              font-size: 1.5em;  
+            }
+           
+    }
+    /* Tablet */
+    @media screen and (min-width: 425px) {
+        html,body {
+            width: 100%;
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+            overflow-x: hidden;
+
+        }
+        .Nac-links{ 
+                   display: grid; 
+                   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                   text-align: center;
+                   color: rgb(240, 197, 244);
+         }
+         header{
+                   font: 1em sans-serif; 
+                   color: rgb(77, 21, 73); 
+                   text-align: center; 
+                   background-color: rgb(244, 211, 247); 
+                   border-radius: 2rem; 
+                   padding: 0.00096rem;
+             }
+     }
+      /* Desktop */
+    @media screen and (min-width: 2560px) {
+        html,body {
+            width: 100%;
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+            overflow-x: hidden;
+
+        }
+        .Nac-links{ 
+                   display: grid; 
+                   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+                   text-align: center;
+                   color: rgb(240, 197, 244);
+         }
+         header{
+                   font: 1em sans-serif; 
+                   color: rgb(42, 3, 41); 
+                   text-align: center; 
+                   background-color: rgb(244, 211, 247); 
+                   border-radius: 5rem; 
+                   padding: 0.00096rem;
+             }
+     }
 
